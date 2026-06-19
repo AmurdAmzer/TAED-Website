@@ -4,8 +4,8 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export const metadata = {
-  title: 'Markazul Huda',
-  description: 'Welcome to Markazul Huda, Ghana',
+  title: 'TAED — Taybah Association for Education & Development',
+  description: 'A non-profit civil society organisation based in Ghana, serving humanity through education, empowerment, and sustainable development.',
   icons: {
     icon: '/favicon.ico', // or .png/.svg
   },

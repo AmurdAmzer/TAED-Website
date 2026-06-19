@@ -17,16 +17,14 @@ export default function Header() {
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about-us' },
-    { label: 'Departments', href: '/academic' },
-    { label: 'Staff', href: '/staff' },
-    { label: 'Students', href: '/students' },
-    { label: 'Gallery', href: '/gallery' },
+    { label: 'Programmes', href: '/programmes' },
+    { label: 'Schools', href: '/schools' },
     { label: 'Contact', href: '/contact-us' },
   ]
 
   return (
     <Navbar
-    bg="white" 
+    variant="dark" 
     expand="lg" 
     className="py-3 shadow-sm" 
     sticky="top"
@@ -36,15 +34,15 @@ export default function Header() {
       <Container>
         <Navbar.Brand as={Link} href="/" className="d-flex align-items-center gap-2">
         <Image
-          src="/images/logo.jpg"
-          alt='MARKAZUL HUDA Logo'
+          src="/images/taed-logo.png"
+          alt='TAED Logo'
           width={40}
           height={40}
           style={{ objectFit: 'contain', borderRadius: '50%' }}
         />
 
-            <span style={{ color: '#238b45', fontWeight: 'bold' }}>
-          MARKAZUL HUDA </span>
+            <span style={{ color: 'white', fontWeight: 'bold' }}>
+          TAED </span>
         </Navbar.Brand>
         
         {/* Mobile menu toggle - hidden when search is focused on obile only */}
@@ -66,6 +64,16 @@ export default function Header() {
                 {item.label}
               </Nav.Link>
               ))}
+
+            <Nav.Link
+              as={Link}
+              href="/donate"
+              onClick={() => setExpanded(false)}
+              className="ms-lg-2 mt-2 mt-lg-0 px-3 py-1 rounded text-white text-center"
+              style={{ backgroundColor: '#2e8c5e', fontWeight: 600 }}
+            >
+              Donate
+            </Nav.Link>
             </Nav>
 
           {/* Search Bar - Always visible */}
