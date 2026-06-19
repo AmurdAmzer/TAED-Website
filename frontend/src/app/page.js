@@ -101,7 +101,7 @@ export default function Home() {
           <Row className="align-items-center">
             <Col lg={6} md={12} className="mb-4 mb-lg-0 order-2 order-lg-1">
               <Image
-                src="/images/taed-building.jpg"
+                src="/images/director.jpg"
                 alt="About TAED"
                 width={500}
                 height={1000}

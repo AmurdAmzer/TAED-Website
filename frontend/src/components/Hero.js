@@ -24,7 +24,7 @@ export default function Hero() {
       titleHighlight: 'Creating impact',
       description:
         'A non-profit civil society organisation based in Ghana, serving humanity through education, empowerment, and sustainable development.',
-      image: '/images/taed-building.jpg',
+      image: '/images/TAEDHQ.jpg',
       field: null,
     },
     {
@@ -32,7 +32,7 @@ export default function Hero() {
       titleHighlight: 'Quality for teachers & students',
       description:
         'We invest in schools, curricula, and educators to raise the standard of learning across our communities.',
-      image: '/images/taed-education.jpg',
+      image: '/images/withkids.jpg',
       field: 0,
     },
     {

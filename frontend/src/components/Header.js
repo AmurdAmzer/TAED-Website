@@ -34,7 +34,7 @@ export default function Header() {
       <Container>
         <Navbar.Brand as={Link} href="/" className="d-flex align-items-center gap-2">
         <Image
-          src="/images/taed-logo.png"
+          src="/images/logo1.jpg"
           alt='TAED Logo'
           width={40}
           height={40}
