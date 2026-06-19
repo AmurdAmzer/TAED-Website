@@ -49,7 +49,7 @@ a:hover {
 
 /* Navigation Styles */
 .navbar {
-  background-color: var(--school-dark-blue) !important;
+  background-color: var(--school-blue) !important;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
