@@ -33,7 +33,7 @@ export default function Home() {
       id: 1,
       title: 'Community Aid Drive',
       description: 'TAED delivers humanitarian support to families across the region, providing food and essential supplies.',
-      image: '/images/taed-relief.jpg',
+      image: '/images/Iftaar1.jpg',
     },
     {
       id: 2,
@@ -51,8 +51,8 @@ export default function Home() {
 
   // TODO(content): replace names/photos with real TAED leadership
   const leadership = [
-    { name: 'Name Placeholder', position: 'Chairperson', description: 'Add a short bio for this leader.', image: '/images/Placeholder.jpg' },
-    { name: 'Name Placeholder', position: 'Executive Director', description: 'Add a short bio for this leader.', image: '/images/Placeholder.jpg' },
+    { name: 'Sheikh Mohammed Ibrahim', position: 'Chairperson', description: 'Add a short bio for this leader.', image: '/images/Director1.jpg' },
+    { name: 'Ahmed Mohammed', position: 'General Secretary', description: 'Add a short bio for this leader.', image: '/images/Placeholder.jpg' },
     { name: 'Name Placeholder', position: 'Programmes Lead', description: 'Add a short bio for this leader.', image: '/images/Placeholder.jpg' },
     { name: 'Name Placeholder', position: 'Finance & Operations', description: 'Add a short bio for this leader.', image: '/images/Placeholder.jpg' },
   ]
